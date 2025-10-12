@@ -1,4 +1,5 @@
 thumbnails: 640x360
 
-git subtree add --prefix dist origin main
+git config --global http.sslbackend schannel
+git push add --prefix dist origin gh-pages --squash
 
