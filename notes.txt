@@ -1,5 +1,13 @@
 thumbnails: 640x360
 
-git config --global http.sslbackend schannel
-git push add --prefix dist origin gh-pages --squash
 
+Installation:
+npm install
+
+npm run dev
+npm run build
+
+
+Original setup:
+git config --global http.sslbackend schannel
+git subtree push --prefix dist origin gh-pages
