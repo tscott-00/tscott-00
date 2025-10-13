@@ -1,7 +1,4 @@
 <template>
-  <!-- <header class="app-header"> -->
-    <!-- <!-- <h1 class="header-title">Thomas Scott</h1> --> -->
-  <!-- </header> -->
   <div class="app-header navbar bg-base-100 shadow-sm">
     <div class="flex-1">
       <RouterLink to="/" class="btn btn-ghost text-xl">Thomas A. Scott</RouterLink>

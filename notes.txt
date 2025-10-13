@@ -8,6 +8,14 @@ git add dist; git commit -m "deploy"; git subtree push --prefix dist origin gh-p
 
 
 
+TODO:
+rescale text instead of wrap (TAS on header)
+header scrollable when doesn't fit?
+reset scroll on page change
+Placeholder while images load
+
+
+
 Github 
 GitHub pages needs to point to www.scott-aero.com
 DNS just has CNAME entry

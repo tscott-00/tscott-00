@@ -21,6 +21,6 @@ body {
 }
 
 .main-content {
-  padding-top: 60px; /* Render below header, TODO: automatic? */
+  padding-top: 70px; /* Render below header, TODO: automatic? */
 }
 </style>

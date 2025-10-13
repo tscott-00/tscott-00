@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1>Ph.D student computational engineering who focuses on research related to computational fluid dynamics.</h1>
+    <h1>Ph.D student researching computational engineering with a focus on aerospace engineering applications.</h1>
   </main>
 </template>
 
