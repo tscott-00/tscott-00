@@ -8,6 +8,11 @@ git add dist; git commit -m "deploy"; git subtree push --prefix dist origin gh-p
 
 
 
+Github 
+GitHub pages needs to point to www.scott-aero.com
+DNS just has CNAME entry
+
+
 Installation:
 npm install
 

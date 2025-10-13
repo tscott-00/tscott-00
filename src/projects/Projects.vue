@@ -4,11 +4,13 @@
     
     <div class="card bg-base-100 w-96 shadow-sm">
       <figure>
-        <img src="./resoft/thumb.jpg"/>
+        <RouterLink to="/projects/resoft">
+          <img src="./resoft/thumb.jpg"/>
+        </RouterLink>
       </figure>
       <div class="card-body">
         <h2 class="card-title">
-          <a href="#/projects/resoft">Rocket Engine Simulations</a>
+          <RouterLink to="/projects/resoft">Rocket Engine Simulations</RouterLink>
           <div class="badge badge-secondary">2022-2024</div>
         </h2>
         <p>Rocket engine simulation software I developed for hybrid and liquid engines with emphasis on atypical oxidizer combinations that present additional modeling challenges compared to prexisting software. Used by University of Tennesse, Knoxville to design multiple flight-competition-winning sounding rockets featuring experimental engines.</p>
@@ -25,7 +27,7 @@
       </figure>
       <div class="card-body">
         <h2 class="card-title">
-          <a href="#/projects/big_hybrid">Big Hybrid</a>
+          <RouterLink to="/projects/big_hybrid">Big Hybrid</RouterLink>
           <div class="badge badge-secondary">2023</div>
         </h2>
         <p>A hybrid rocket engine I lead the design, devlopment, and testing of. Facilitated by my propulsion simulation software. Won first place in the highest altitude bracket at the 2024 Oxidizers Uninhibited Tournament in Mojave, CA!</p>

@@ -4,14 +4,14 @@
   <!-- </header> -->
   <div class="app-header navbar bg-base-100 shadow-sm">
     <div class="flex-1">
-      <a class="btn btn-ghost text-xl">Thomas A. Scott</a>
+      <RouterLink to="" class="btn btn-ghost text-xl">Thomas A. Scott</RouterLink>
     </div>
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
-        <li><a href="#/">Home</a></li>
-        <li><a href="#/research">Research</a></li>
-        <li><a href="#/projects">Projects</a></li>
-        <li><a href="#/honors_and_awards">Honors and Awards</a></li>
+        <li><RouterLink to="/">Home</RouterLink></li>
+        <li><RouterLink to="/research">Research</RouterLink></li>
+        <li><RouterLink to="/projects">Projects</RouterLink></li>
+        <li><RouterLink to="/honors_and_awards">Honors and Awards</RouterLink></li>
       </ul>
     </div>
   </div>
