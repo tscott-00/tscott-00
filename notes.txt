@@ -1,4 +1,4 @@
-thumbnails: 640x360
+thumbnails: 640x360, shown in 96x54 pt
 
 
 
