@@ -1,6 +1,8 @@
 import './assets/main.css'
 
 import { createApp } from 'vue'
+// Note can't use web history as don't have control over redirecting in GitHub Pages
+// import { createRouter, createWebHashHistory } from 'vue-router'
 import { createRouter, createWebHistory } from 'vue-router'
 
 import App from './App.vue'
@@ -22,10 +24,10 @@ const router = createRouter({
     { path: '/research', component: Research },
     
     { path: '/projects', component: Projects },
-    { path: '/projects/big_hybrid', component: BigHybrid },
+    { path: '/projects/big-hybrid', component: BigHybrid },
     { path: '/projects/resoft', component: RESoft },
     
-    { path: '/honors_and_awards', component: HonorsAndAwards },
+    { path: '/honors-and-awards', component: HonorsAndAwards },
   ],
 })
 

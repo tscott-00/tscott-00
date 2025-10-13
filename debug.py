@@ -17,6 +17,10 @@ app = Bottle() # Explicit app instance
 def home():
     return static_file('index.html', root=str('dist'))
 
+@app.error(404)
+def error404(error):
+    return static_file('404.html', root=str('dist'))
+
 @app.route('/assets/<filepath:path>')
 def server_static(filepath):
     # Note that requests cannot escape (see parents) of root directory
