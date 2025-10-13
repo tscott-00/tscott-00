@@ -1,6 +1,13 @@
 thumbnails: 640x360
 
 
+
+Commiting:
+git subtree pull --prefix dist origin gh-pages
+git add dist; git commit -m "deploy"; git subtree push --prefix dist origin gh-pages
+
+
+
 Installation:
 npm install
 
@@ -11,3 +18,5 @@ npm run build
 Original setup:
 git config --global http.sslbackend schannel
 git subtree push --prefix dist origin gh-pages
+
+
