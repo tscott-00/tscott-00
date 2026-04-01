@@ -40,10 +40,6 @@
     
   <!-- UTK's highest impulse, thrust, and efficiency rocket engine ever, which won first place in its altitude category at FAR-OUT 2024! -->
 
-  <!-- Aluminized Plastisol - Fuel -->
-
-  <!-- Nitrous Oxide - Oxidizer -->
-
   <!-- 11 ft - length, 5" Diameter -->
     </p>
     
@@ -54,6 +50,8 @@
     </div>
     
     <!-- Seciton on fuel grains? -->
+    
+    <p>Special thanks to Alexander van Bruggen for serving as the in-house machinist for this project, as well as Ricardo Crescencio and Meghan Smitherman for leading the sounding rocket project the following year that used Big Hybrid as its engine.</p>
   </main>
 </template>
 

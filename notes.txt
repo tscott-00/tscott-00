@@ -2,7 +2,7 @@ thumbnails: 640x360, shown in 96x54 pt
 
 
 
-Commiting:
+Publishing the built site:
 git subtree pull --prefix dist origin gh-pages
 git add dist; git commit -m "deploy"; git subtree push --prefix dist origin gh-pages
 
@@ -13,12 +13,21 @@ rescale text instead of wrap (TAS on header)
 header scrollable when doesn't fit?
 reset scroll on page change
 Placeholder while images load
+profile pic keep aspect
 
 
 
 Github 
 GitHub pages needs to point to www.scott-aero.com
 DNS just has CNAME entry
+
+
+Compiling C++ to WASM (after activating emscripten):
+TODO: sh script to compile everything
+emcc src/tools/ox_fill/ox_fill.cpp -o src/tools/ox_fill/ox_fill.js
+
+More compact ways? https://stackoverflow.com/questions/45146099/how-do-i-compile-a-c-file-to-webassembly
+-s SIDE_MODULE=1 -Oz -s ONLY_MY_CODE=1
 
 
 Installation:
@@ -28,8 +37,20 @@ npm run dev
 npm run build
 
 
-Original setup:
-git config --global http.sslbackend schannel
+
+Original setup (other than VM - prereqs are node and emscripten):
+Fedora:
+  sudo dnf install git-subtree
+Windows:
+  git config --global http.sslbackend schannel
 git subtree push --prefix dist origin gh-pages
 
 
+
+DaisyUI:
+li first div is for columns, next for rows
+
+
+
+Licenses of Direct Dependencies (not including their dependencies):
+MIT: Emscripten
