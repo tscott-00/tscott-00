@@ -39,6 +39,7 @@ npm run build
 
 
 Original setup (other than VM - prereqs are node and emscripten):
+  doesn't need re-run, just commit regularly afterwards
 Fedora:
   sudo dnf install git-subtree
 Windows:
