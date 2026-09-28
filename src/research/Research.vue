@@ -16,6 +16,18 @@
         <li class="p-4 pb-2 text-xs opacity-60 tracking-wide">Publications</li>
         <li class="list-row"><div>
           <div class="font-semibold">
+            Uncertainty-Aware Model-Constrained Neural Digital Twins for Real-Time Forecast, Calibration, and Control of Aeroelastic Airfoils
+          </div>
+          <div class="italic text-xs pl-2">
+            William Cole Nockolds, <span class="text-secondary">Thomas A. Scott</span>, Tan Bui-Thanh, Shatad Purohit, Sitaram Ramaswamy
+          </div>
+          <div class="text-xs pl-2">
+            2026
+            <a href="https://papers.phmsociety.org/index.php/phmconf/article/view/4799" target="_blank" rel="noopener noreferrer" class="font-bold text-primary hover:underline">[PHM Society Conference Proceedings]</a>
+          </div>
+        </div></li>
+        <li class="list-row"><div>
+          <div class="font-semibold">
             Dimension Bridging for 3D RANS with Neural Network Accelerated Gaussian Functional Regression
           </div>
           <div class="italic text-xs pl-2">
